@@ -1,0 +1,6 @@
+[2018-02-20 09:43:17] [Info]: getGeneralMasterList
+[2018-02-20 09:43:19] [Info]: refreshList
+[2018-02-20 09:43:20] [Info]: refreshList
+[2018-02-20 09:43:21] [Info]: refreshList
+[2018-02-20 09:43:21] [Info]: getSample
+[2018-02-20 09:43:26] [Info]: refreshList

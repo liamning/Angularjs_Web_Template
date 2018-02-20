@@ -1,0 +1,1784 @@
+[2018-02-02 09:17:19] [Info]: refreshList
+[2018-02-02 09:17:23] [Info]: refreshList
+[2018-02-02 09:17:29] [Info]: refreshList
+[2018-02-02 09:17:32] [Info]: refreshList
+[2018-02-02 09:17:35] [Info]: refreshList
+[2018-02-02 09:17:49] [Info]: refreshList
+[2018-02-02 09:17:50] [Info]: refreshList
+[2018-02-02 09:18:06] [Error]: String was not recognized as a valid DateTime.
+[2018-02-02 09:18:06] [Error]:    at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider, DateTimeStyles style)
+   at Newtonsoft.Json.Converters.IsoDateTimeConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.DeserializeConvertable(JsonConverter converter, JsonReader reader, Type objectType, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonConverter[] converters)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonConverter[] converters)
+   at AjaxHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\HttpHandler\AjaxHandler.ashx:line 33
+[2018-02-02 09:20:59] [Info]: refreshList
+[2018-02-02 09:21:03] [Info]: refreshList
+[2018-02-02 09:21:10] [Info]: refreshList
+[2018-02-02 09:21:12] [Info]: refreshList
+[2018-02-02 09:22:12] [Error]: Must declare the scalar variable "@SampleNo".
+[2018-02-02 09:22:12] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Sample.IsExisted(String SampleNo) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\Sample.cs:line 54
+   at Sample.Save(SampleInfo sampleInfo) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\Sample.cs:line 61
+   at AjaxHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\HttpHandler\AjaxHandler.ashx:line 35
+[2018-02-02 09:23:51] [Info]: refreshList
+[2018-02-02 09:24:16] [Info]: refreshList
+[2018-02-02 09:24:20] [Info]: refreshList
+[2018-02-02 09:24:23] [Info]: refreshList
+[2018-02-02 09:24:23] [Info]: refreshList
+[2018-02-02 09:24:23] [Info]: refreshList
+[2018-02-02 09:24:24] [Info]: refreshList
+[2018-02-02 09:24:24] [Info]: refreshList
+[2018-02-02 09:24:24] [Info]: refreshList
+[2018-02-02 09:24:26] [Info]: refreshList
+[2018-02-02 09:25:32] [Error]: Must declare the scalar variable "@SampleNo".
+[2018-02-02 09:25:32] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Sample.IsExisted(String SampleNo) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\Sample.cs:line 54
+   at Sample.Save(SampleInfo sampleInfo) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\Sample.cs:line 61
+   at AjaxHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\HttpHandler\AjaxHandler.ashx:line 35
+[2018-02-02 09:26:04] [Info]: refreshList
+[2018-02-02 09:26:05] [Info]: refreshList
+[2018-02-02 09:26:07] [Info]: refreshList
+[2018-02-02 09:26:08] [Info]: refreshList
+[2018-02-02 09:26:08] [Info]: refreshList
+[2018-02-02 09:26:08] [Info]: refreshList
+[2018-02-02 09:26:08] [Info]: refreshList
+[2018-02-02 09:26:08] [Info]: refreshList
+[2018-02-02 09:26:09] [Info]: refreshList
+[2018-02-02 09:26:10] [Info]: refreshList
+[2018-02-02 09:26:10] [Info]: refreshList
+[2018-02-02 09:26:11] [Info]: refreshList
+[2018-02-02 09:26:56] [Error]: Must declare the scalar variable "@SampleNo".
+[2018-02-02 09:26:56] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Sample.IsExisted(String SampleNo) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\Sample.cs:line 54
+   at Sample.Save(SampleInfo sampleInfo) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\Sample.cs:line 61
+   at AjaxHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\HttpHandler\AjaxHandler.ashx:line 35
+[2018-02-02 09:26:58] [Info]: refreshList
+[2018-02-02 09:26:59] [Info]: refreshList
+[2018-02-02 09:26:59] [Info]: refreshList
+[2018-02-02 09:26:59] [Info]: refreshList
+[2018-02-02 09:26:59] [Info]: refreshList
+[2018-02-02 09:26:59] [Info]: refreshList
+[2018-02-02 09:27:00] [Info]: refreshList
+[2018-02-02 09:27:00] [Info]: refreshList
+[2018-02-02 09:27:04] [Info]: refreshList
+[2018-02-02 09:27:04] [Info]: refreshList
+[2018-02-02 09:27:04] [Info]: refreshList
+[2018-02-02 09:27:04] [Info]: refreshList
+[2018-02-02 09:27:04] [Info]: refreshList
+[2018-02-02 09:27:04] [Info]: refreshList
+[2018-02-02 09:27:06] [Info]: refreshList
+[2018-02-02 09:27:06] [Info]: refreshList
+[2018-02-02 09:27:06] [Info]: refreshList
+[2018-02-02 09:27:06] [Info]: refreshList
+[2018-02-02 09:27:06] [Info]: refreshList
+[2018-02-02 09:27:07] [Info]: refreshList
+[2018-02-02 09:27:07] [Info]: refreshList
+[2018-02-02 09:27:08] [Info]: refreshList
+[2018-02-02 09:33:36] [Error]: Must declare the scalar variable "@SampleNo".
+[2018-02-02 09:33:36] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Sample.IsExisted(String SampleNo) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\Sample.cs:line 54
+   at Sample.Save(SampleInfo sampleInfo) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\Sample.cs:line 61
+   at AjaxHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\HttpHandler\AjaxHandler.ashx:line 35
+[2018-02-02 09:33:40] [Info]: refreshList
+[2018-02-02 09:33:41] [Info]: refreshList
+[2018-02-02 09:33:42] [Info]: refreshList
+[2018-02-02 09:33:43] [Info]: refreshList
+[2018-02-02 09:33:43] [Info]: refreshList
+[2018-02-02 09:33:44] [Info]: refreshList
+[2018-02-02 09:33:44] [Info]: refreshList
+[2018-02-02 09:33:44] [Info]: refreshList
+[2018-02-02 09:33:44] [Info]: refreshList
+[2018-02-02 09:33:44] [Info]: refreshList
+[2018-02-02 09:33:44] [Info]: refreshList
+[2018-02-02 09:33:46] [Info]: refreshList
+[2018-02-02 09:34:06] [Error]: Must declare the scalar variable "@SampleNo".
+[2018-02-02 09:34:06] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Sample.IsExisted(String SampleNo) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\Sample.cs:line 54
+   at Sample.Save(SampleInfo sampleInfo) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\Sample.cs:line 61
+   at AjaxHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\HttpHandler\AjaxHandler.ashx:line 35
+[2018-02-02 09:34:36] [Error]: Must declare the scalar variable "@SampleNo".
+[2018-02-02 09:34:36] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Sample.IsExisted(String SampleNo) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\Sample.cs:line 54
+   at Sample.Save(SampleInfo sampleInfo) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\Sample.cs:line 61
+   at AjaxHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\HttpHandler\AjaxHandler.ashx:line 35
+[2018-02-02 09:36:39] [Info]: refreshList
+[2018-02-02 09:38:39] [Info]: refreshList
+[2018-02-02 09:38:41] [Info]: refreshList
+[2018-02-02 09:38:48] [Info]: refreshList
+[2018-02-02 09:39:22] [Error]: Invalid column name 'SampleNo'.
+[2018-02-02 09:39:22] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Sample.IsExisted(String SampleNo) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\Sample.cs:line 54
+   at Sample.Save(SampleInfo sampleInfo) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\Sample.cs:line 61
+   at AjaxHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\HttpHandler\AjaxHandler.ashx:line 35
+[2018-02-02 09:39:38] [Error]: Invalid column name 'SampleNo'.
+[2018-02-02 09:39:39] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Sample.IsExisted(String SampleNo) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\Sample.cs:line 54
+   at Sample.Save(SampleInfo sampleInfo) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\Sample.cs:line 61
+   at AjaxHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\HttpHandler\AjaxHandler.ashx:line 35
+[2018-02-02 09:40:32] [Error]: Invalid column name 'SampleNo'.
+[2018-02-02 09:40:32] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Sample.IsExisted(String SampleNo) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\Sample.cs:line 54
+   at Sample.Save(SampleInfo sampleInfo) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\Sample.cs:line 61
+   at AjaxHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\HttpHandler\AjaxHandler.ashx:line 35
+[2018-02-02 09:40:38] [Error]: Invalid column name 'SampleNo'.
+[2018-02-02 09:40:38] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Sample.IsExisted(String SampleNo) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\Sample.cs:line 54
+   at Sample.Save(SampleInfo sampleInfo) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\Sample.cs:line 61
+   at AjaxHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\HttpHandler\AjaxHandler.ashx:line 35
+[2018-02-02 09:40:59] [Error]: Invalid column name 'SampleNo'.
+[2018-02-02 09:40:59] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Sample.IsExisted(String SampleNo) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\Sample.cs:line 54
+   at Sample.Save(SampleInfo sampleInfo) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\Sample.cs:line 61
+   at AjaxHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\HttpHandler\AjaxHandler.ashx:line 35
+[2018-02-02 09:41:01] [Info]: refreshList
+[2018-02-02 09:41:02] [Info]: refreshList
+[2018-02-02 09:41:02] [Info]: refreshList
+[2018-02-02 09:41:02] [Info]: refreshList
+[2018-02-02 09:41:02] [Info]: refreshList
+[2018-02-02 09:41:03] [Info]: refreshList
+[2018-02-02 09:41:03] [Info]: refreshList
+[2018-02-02 09:41:03] [Info]: refreshList
+[2018-02-02 09:41:03] [Info]: refreshList
+[2018-02-02 09:41:04] [Info]: refreshList
+[2018-02-02 09:41:05] [Info]: refreshList
+[2018-02-02 09:41:06] [Info]: refreshList
+[2018-02-02 09:41:06] [Info]: refreshList
+[2018-02-02 09:41:14] [Error]: Invalid column name 'SampleNo'.
+[2018-02-02 09:41:14] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Sample.IsExisted(String SampleNo) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\Sample.cs:line 54
+   at Sample.Save(SampleInfo sampleInfo) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\Sample.cs:line 61
+   at AjaxHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\HttpHandler\AjaxHandler.ashx:line 35
+[2018-02-02 09:54:24] [Error]: Invalid column name 'SampleNo'.
+[2018-02-02 09:54:24] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Sample.IsExisted(String SampleNo) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\Sample.cs:line 54
+   at Sample.Save(SampleInfo sampleInfo) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\Sample.cs:line 61
+   at AjaxHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\HttpHandler\AjaxHandler.ashx:line 35
+[2018-02-02 09:56:11] [Info]: refreshList
+[2018-02-02 09:56:12] [Info]: refreshList
+[2018-02-02 09:56:13] [Info]: refreshList
+[2018-02-02 09:56:13] [Info]: refreshList
+[2018-02-02 09:56:13] [Info]: refreshList
+[2018-02-02 09:56:13] [Info]: refreshList
+[2018-02-02 09:56:13] [Info]: refreshList
+[2018-02-02 09:56:14] [Info]: refreshList
+[2018-02-02 09:56:14] [Info]: refreshList
+[2018-02-02 09:56:16] [Info]: refreshList
+[2018-02-02 09:56:47] [Error]: Invalid column name 'SampleNo'.
+[2018-02-02 09:56:47] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Sample.IsExisted(String SampleNo) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\Sample.cs:line 54
+   at Sample.Save(SampleInfo sampleInfo) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\Sample.cs:line 61
+   at AjaxHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\HttpHandler\AjaxHandler.ashx:line 35
+[2018-02-02 09:57:05] [Error]: Invalid column name 'SampleNo'.
+[2018-02-02 09:57:05] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Sample.IsExisted(String SampleNo) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\Sample.cs:line 54
+   at Sample.Save(SampleInfo sampleInfo) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\Sample.cs:line 61
+   at AjaxHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\HttpHandler\AjaxHandler.ashx:line 35
+[2018-02-02 09:57:23] [Info]: refreshList
+[2018-02-02 09:57:24] [Info]: refreshList
+[2018-02-02 09:57:24] [Info]: refreshList
+[2018-02-02 09:57:25] [Info]: refreshList
+[2018-02-02 09:57:25] [Info]: refreshList
+[2018-02-02 09:57:25] [Info]: refreshList
+[2018-02-02 09:57:25] [Info]: refreshList
+[2018-02-02 09:57:26] [Info]: refreshList
+[2018-02-02 09:57:26] [Info]: refreshList
+[2018-02-02 09:57:26] [Info]: refreshList
+[2018-02-02 09:57:27] [Info]: refreshList
+[2018-02-02 09:58:11] [Error]: Invalid column name 'SampleNo'.
+[2018-02-02 09:58:11] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Sample.IsExisted(String sampleNo) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\Sample.cs:line 54
+   at Sample.Save(SampleInfo sampleInfo) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\Sample.cs:line 61
+   at AjaxHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\HttpHandler\AjaxHandler.ashx:line 35
+[2018-02-02 10:00:29] [Info]: refreshList
+[2018-02-02 10:00:29] [Info]: refreshList
+[2018-02-02 10:00:29] [Info]: refreshList
+[2018-02-02 10:00:30] [Info]: refreshList
+[2018-02-02 10:00:30] [Info]: refreshList
+[2018-02-02 10:00:30] [Info]: refreshList
+[2018-02-02 10:00:30] [Info]: refreshList
+[2018-02-02 10:00:30] [Info]: refreshList
+[2018-02-02 10:00:30] [Info]: refreshList
+[2018-02-02 10:00:32] [Info]: refreshList
+[2018-02-02 10:00:43] [Error]: Invalid column name 'SampleNo'.
+[2018-02-02 10:00:43] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Sample.IsExisted(String sampleNo) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\Sample.cs:line 54
+   at Sample.Save(SampleInfo sampleInfo) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\Sample.cs:line 61
+   at AjaxHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\HttpHandler\AjaxHandler.ashx:line 35
+[2018-02-02 10:01:29] [Error]: Must declare the scalar variable "@SampleTextarea".
+[2018-02-02 10:01:29] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader)
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command)
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Sample.Insert(SampleInfo sampleInfo) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\Sample.cs:line 187
+   at Sample.Save(SampleInfo sampleInfo) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\Sample.cs:line 64
+   at AjaxHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\HttpHandler\AjaxHandler.ashx:line 35
+[2018-02-02 10:02:11] [Error]: Invalid column name 'ClientNo'.
+Invalid column name 'ClientNo'.
+Invalid column name 'CompanyName'.
+Invalid column name 'ClientNo'.
+Invalid column name 'ClientNo'.
+Invalid column name 'CompanyName'.
+Invalid column name 'ClientNo'.
+ORDER BY items must appear in the select list if the statement contains a UNION, INTERSECT or EXCEPT operator.
+[2018-02-02 10:02:11] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at GeneralMaster.RefreshSampleList(String sampleCode) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\GeneralMaster.cs:line 96
+   at GeneralMaster.RefreshTableList(String tableName, String input) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\GeneralMaster.cs:line 70
+   at AjaxHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\HttpHandler\AjaxHandler.ashx:line 665
+[2018-02-02 10:02:12] [Error]: Invalid column name 'ClientNo'.
+Invalid column name 'ClientNo'.
+Invalid column name 'CompanyName'.
+Invalid column name 'ClientNo'.
+Invalid column name 'ClientNo'.
+Invalid column name 'CompanyName'.
+Invalid column name 'ClientNo'.
+ORDER BY items must appear in the select list if the statement contains a UNION, INTERSECT or EXCEPT operator.
+[2018-02-02 10:02:12] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at GeneralMaster.RefreshSampleList(String sampleCode) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\GeneralMaster.cs:line 96
+   at GeneralMaster.RefreshTableList(String tableName, String input) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\GeneralMaster.cs:line 70
+   at AjaxHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\HttpHandler\AjaxHandler.ashx:line 665
+[2018-02-02 10:02:13] [Error]: Invalid column name 'ClientNo'.
+Invalid column name 'ClientNo'.
+Invalid column name 'CompanyName'.
+Invalid column name 'ClientNo'.
+Invalid column name 'ClientNo'.
+Invalid column name 'CompanyName'.
+Invalid column name 'ClientNo'.
+ORDER BY items must appear in the select list if the statement contains a UNION, INTERSECT or EXCEPT operator.
+[2018-02-02 10:02:13] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at GeneralMaster.RefreshSampleList(String sampleCode) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\GeneralMaster.cs:line 96
+   at GeneralMaster.RefreshTableList(String tableName, String input) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\GeneralMaster.cs:line 70
+   at AjaxHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\HttpHandler\AjaxHandler.ashx:line 665
+[2018-02-02 10:02:14] [Error]: Invalid column name 'ClientNo'.
+Invalid column name 'ClientNo'.
+Invalid column name 'CompanyName'.
+Invalid column name 'ClientNo'.
+Invalid column name 'ClientNo'.
+Invalid column name 'CompanyName'.
+Invalid column name 'ClientNo'.
+ORDER BY items must appear in the select list if the statement contains a UNION, INTERSECT or EXCEPT operator.
+[2018-02-02 10:02:14] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at GeneralMaster.RefreshSampleList(String sampleCode) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\GeneralMaster.cs:line 96
+   at GeneralMaster.RefreshTableList(String tableName, String input) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\GeneralMaster.cs:line 70
+   at AjaxHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\HttpHandler\AjaxHandler.ashx:line 665
+[2018-02-02 10:02:14] [Error]: Invalid column name 'ClientNo'.
+Invalid column name 'ClientNo'.
+Invalid column name 'CompanyName'.
+Invalid column name 'ClientNo'.
+Invalid column name 'ClientNo'.
+Invalid column name 'CompanyName'.
+Invalid column name 'ClientNo'.
+ORDER BY items must appear in the select list if the statement contains a UNION, INTERSECT or EXCEPT operator.
+[2018-02-02 10:02:14] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at GeneralMaster.RefreshSampleList(String sampleCode) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\GeneralMaster.cs:line 96
+   at GeneralMaster.RefreshTableList(String tableName, String input) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\GeneralMaster.cs:line 70
+   at AjaxHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\HttpHandler\AjaxHandler.ashx:line 665
+[2018-02-02 10:02:14] [Error]: Invalid column name 'ClientNo'.
+Invalid column name 'ClientNo'.
+Invalid column name 'CompanyName'.
+Invalid column name 'ClientNo'.
+Invalid column name 'ClientNo'.
+Invalid column name 'CompanyName'.
+Invalid column name 'ClientNo'.
+ORDER BY items must appear in the select list if the statement contains a UNION, INTERSECT or EXCEPT operator.
+[2018-02-02 10:02:14] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at GeneralMaster.RefreshSampleList(String sampleCode) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\GeneralMaster.cs:line 96
+   at GeneralMaster.RefreshTableList(String tableName, String input) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\GeneralMaster.cs:line 70
+   at AjaxHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\HttpHandler\AjaxHandler.ashx:line 665
+[2018-02-02 10:02:29] [Error]: Invalid column name 'ClientNo'.
+Invalid column name 'ClientNo'.
+Invalid column name 'CompanyName'.
+Invalid column name 'ClientNo'.
+Invalid column name 'ClientNo'.
+Invalid column name 'CompanyName'.
+Invalid column name 'ClientNo'.
+ORDER BY items must appear in the select list if the statement contains a UNION, INTERSECT or EXCEPT operator.
+[2018-02-02 10:02:29] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at GeneralMaster.RefreshSampleList(String sampleCode) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\GeneralMaster.cs:line 96
+   at GeneralMaster.RefreshTableList(String tableName, String input) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\GeneralMaster.cs:line 70
+   at AjaxHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\HttpHandler\AjaxHandler.ashx:line 665
+[2018-02-02 10:03:00] [Error]: Invalid column name 'ClientNo'.
+Invalid column name 'ClientNo'.
+Invalid column name 'CompanyName'.
+Invalid column name 'ClientNo'.
+Invalid column name 'ClientNo'.
+Invalid column name 'CompanyName'.
+Invalid column name 'ClientNo'.
+ORDER BY items must appear in the select list if the statement contains a UNION, INTERSECT or EXCEPT operator.
+[2018-02-02 10:03:00] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at GeneralMaster.RefreshSampleList(String sampleCode) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\GeneralMaster.cs:line 96
+   at GeneralMaster.RefreshTableList(String tableName, String input) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\GeneralMaster.cs:line 70
+   at AjaxHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\HttpHandler\AjaxHandler.ashx:line 665
+[2018-02-02 10:03:01] [Error]: Invalid column name 'ClientNo'.
+Invalid column name 'ClientNo'.
+Invalid column name 'CompanyName'.
+Invalid column name 'ClientNo'.
+Invalid column name 'ClientNo'.
+Invalid column name 'CompanyName'.
+Invalid column name 'ClientNo'.
+ORDER BY items must appear in the select list if the statement contains a UNION, INTERSECT or EXCEPT operator.
+[2018-02-02 10:03:01] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at GeneralMaster.RefreshSampleList(String sampleCode) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\GeneralMaster.cs:line 96
+   at GeneralMaster.RefreshTableList(String tableName, String input) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\GeneralMaster.cs:line 70
+   at AjaxHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\HttpHandler\AjaxHandler.ashx:line 665
+[2018-02-02 10:03:02] [Error]: Invalid column name 'ClientNo'.
+Invalid column name 'ClientNo'.
+Invalid column name 'CompanyName'.
+Invalid column name 'ClientNo'.
+Invalid column name 'ClientNo'.
+Invalid column name 'CompanyName'.
+Invalid column name 'ClientNo'.
+ORDER BY items must appear in the select list if the statement contains a UNION, INTERSECT or EXCEPT operator.
+[2018-02-02 10:03:02] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at GeneralMaster.RefreshSampleList(String sampleCode) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\GeneralMaster.cs:line 96
+   at GeneralMaster.RefreshTableList(String tableName, String input) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\GeneralMaster.cs:line 70
+   at AjaxHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\HttpHandler\AjaxHandler.ashx:line 665
+[2018-02-02 10:03:04] [Error]: Invalid column name 'ClientNo'.
+Invalid column name 'ClientNo'.
+Invalid column name 'CompanyName'.
+Invalid column name 'ClientNo'.
+Invalid column name 'ClientNo'.
+Invalid column name 'CompanyName'.
+Invalid column name 'ClientNo'.
+ORDER BY items must appear in the select list if the statement contains a UNION, INTERSECT or EXCEPT operator.
+[2018-02-02 10:03:04] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at GeneralMaster.RefreshSampleList(String sampleCode) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\GeneralMaster.cs:line 96
+   at GeneralMaster.RefreshTableList(String tableName, String input) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\GeneralMaster.cs:line 70
+   at AjaxHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\HttpHandler\AjaxHandler.ashx:line 665
+[2018-02-02 10:03:04] [Error]: Invalid column name 'ClientNo'.
+Invalid column name 'ClientNo'.
+Invalid column name 'CompanyName'.
+Invalid column name 'ClientNo'.
+Invalid column name 'ClientNo'.
+Invalid column name 'CompanyName'.
+Invalid column name 'ClientNo'.
+ORDER BY items must appear in the select list if the statement contains a UNION, INTERSECT or EXCEPT operator.
+[2018-02-02 10:03:04] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at GeneralMaster.RefreshSampleList(String sampleCode) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\GeneralMaster.cs:line 96
+   at GeneralMaster.RefreshTableList(String tableName, String input) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\GeneralMaster.cs:line 70
+   at AjaxHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\HttpHandler\AjaxHandler.ashx:line 665
+[2018-02-02 10:03:04] [Error]: Invalid column name 'ClientNo'.
+Invalid column name 'ClientNo'.
+Invalid column name 'CompanyName'.
+Invalid column name 'ClientNo'.
+Invalid column name 'ClientNo'.
+Invalid column name 'CompanyName'.
+Invalid column name 'ClientNo'.
+ORDER BY items must appear in the select list if the statement contains a UNION, INTERSECT or EXCEPT operator.
+[2018-02-02 10:03:04] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at GeneralMaster.RefreshSampleList(String sampleCode) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\GeneralMaster.cs:line 96
+   at GeneralMaster.RefreshTableList(String tableName, String input) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\GeneralMaster.cs:line 70
+   at AjaxHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\HttpHandler\AjaxHandler.ashx:line 665
+[2018-02-02 10:03:07] [Error]: Invalid column name 'ClientNo'.
+Invalid column name 'ClientNo'.
+Invalid column name 'CompanyName'.
+Invalid column name 'ClientNo'.
+Invalid column name 'ClientNo'.
+Invalid column name 'CompanyName'.
+Invalid column name 'ClientNo'.
+ORDER BY items must appear in the select list if the statement contains a UNION, INTERSECT or EXCEPT operator.
+[2018-02-02 10:03:07] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at GeneralMaster.RefreshSampleList(String sampleCode) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\GeneralMaster.cs:line 96
+   at GeneralMaster.RefreshTableList(String tableName, String input) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\GeneralMaster.cs:line 70
+   at AjaxHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\HttpHandler\AjaxHandler.ashx:line 665
+[2018-02-02 10:03:08] [Error]: Invalid column name 'ClientNo'.
+Invalid column name 'ClientNo'.
+Invalid column name 'CompanyName'.
+Invalid column name 'ClientNo'.
+Invalid column name 'ClientNo'.
+Invalid column name 'CompanyName'.
+Invalid column name 'ClientNo'.
+ORDER BY items must appear in the select list if the statement contains a UNION, INTERSECT or EXCEPT operator.
+[2018-02-02 10:03:08] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at GeneralMaster.RefreshSampleList(String sampleCode) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\GeneralMaster.cs:line 96
+   at GeneralMaster.RefreshTableList(String tableName, String input) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\GeneralMaster.cs:line 70
+   at AjaxHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\HttpHandler\AjaxHandler.ashx:line 665
+[2018-02-02 10:03:09] [Error]: Invalid column name 'ClientNo'.
+Invalid column name 'ClientNo'.
+Invalid column name 'CompanyName'.
+Invalid column name 'ClientNo'.
+Invalid column name 'ClientNo'.
+Invalid column name 'CompanyName'.
+Invalid column name 'ClientNo'.
+ORDER BY items must appear in the select list if the statement contains a UNION, INTERSECT or EXCEPT operator.
+[2018-02-02 10:03:09] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at GeneralMaster.RefreshSampleList(String sampleCode) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\GeneralMaster.cs:line 96
+   at GeneralMaster.RefreshTableList(String tableName, String input) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\GeneralMaster.cs:line 70
+   at AjaxHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\HttpHandler\AjaxHandler.ashx:line 665
+[2018-02-02 10:45:29] [Info]: refreshList
+[2018-02-02 10:45:30] [Info]: refreshList
+[2018-02-02 10:45:31] [Info]: refreshList
+[2018-02-02 10:45:32] [Info]: refreshList
+[2018-02-02 10:45:32] [Info]: refreshList
+[2018-02-02 10:45:33] [Info]: refreshList
+[2018-02-02 10:45:33] [Info]: refreshList
+[2018-02-02 10:45:33] [Info]: refreshList
+[2018-02-02 10:45:33] [Info]: refreshList
+[2018-02-02 10:45:33] [Info]: refreshList
+[2018-02-02 10:45:35] [Info]: refreshList
+[2018-02-02 10:45:50] [Error]: Must declare the scalar variable "@SampleTextarea".
+[2018-02-02 10:45:50] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader)
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command)
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Sample.Insert(SampleInfo sampleInfo) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\Sample.cs:line 187
+   at Sample.Save(SampleInfo sampleInfo) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\Sample.cs:line 64
+   at AjaxHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\HttpHandler\AjaxHandler.ashx:line 35
+[2018-02-02 10:46:26] [Error]: Must declare the scalar variable "@SampleTextarea".
+[2018-02-02 10:46:26] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader)
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command)
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Sample.Insert(SampleInfo sampleInfo) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\Sample.cs:line 187
+   at Sample.Save(SampleInfo sampleInfo) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\Sample.cs:line 64
+   at AjaxHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\HttpHandler\AjaxHandler.ashx:line 35
+[2018-02-02 10:47:05] [Error]: Must declare the scalar variable "@SampleTextarea".
+[2018-02-02 10:47:05] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader)
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command)
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Sample.Insert(SampleInfo sampleInfo) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\Sample.cs:line 187
+   at Sample.Save(SampleInfo sampleInfo) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\Sample.cs:line 64
+   at AjaxHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\HttpHandler\AjaxHandler.ashx:line 35
+[2018-02-02 10:47:16] [Error]: Must declare the scalar variable "@SampleTextarea".
+[2018-02-02 10:47:16] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader)
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command)
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Sample.Insert(SampleInfo sampleInfo) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\Sample.cs:line 187
+   at Sample.Save(SampleInfo sampleInfo) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\Sample.cs:line 64
+   at AjaxHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\HttpHandler\AjaxHandler.ashx:line 35
+[2018-02-02 10:47:36] [Info]: refreshList
+[2018-02-02 10:47:37] [Info]: refreshList
+[2018-02-02 10:47:38] [Info]: refreshList
+[2018-02-02 10:47:38] [Info]: refreshList
+[2018-02-02 10:47:39] [Info]: refreshList
+[2018-02-02 10:47:39] [Info]: refreshList
+[2018-02-02 10:47:39] [Info]: refreshList
+[2018-02-02 10:47:39] [Info]: refreshList
+[2018-02-02 10:47:39] [Info]: refreshList
+[2018-02-02 10:47:39] [Info]: refreshList
+[2018-02-02 10:47:40] [Info]: refreshList
+[2018-02-02 10:47:41] [Info]: refreshList
+[2018-02-02 10:48:05] [Error]: Must declare the scalar variable "@SampleRadioButton".
+[2018-02-02 10:48:05] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader)
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command)
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Sample.Insert(SampleInfo sampleInfo) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\Sample.cs:line 187
+   at Sample.Save(SampleInfo sampleInfo) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\Sample.cs:line 64
+   at AjaxHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\HttpHandler\AjaxHandler.ashx:line 35
+[2018-02-02 10:48:23] [Info]: saveSample
+[2018-02-02 10:48:26] [Info]: refreshList
+[2018-02-02 10:48:27] [Info]: refreshList
+[2018-02-02 10:48:56] [Error]: Must declare the scalar variable "@CreateTime".
+[2018-02-02 10:48:56] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader)
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command)
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Sample.Update(SampleInfo sampleInfo) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\Sample.cs:line 130
+   at Sample.Save(SampleInfo sampleInfo) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\Sample.cs:line 62
+   at AjaxHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\HttpHandler\AjaxHandler.ashx:line 35
+[2018-02-02 10:49:28] [Info]: refreshList
+[2018-02-02 10:49:29] [Info]: refreshList
+[2018-02-02 10:49:43] [Error]: Invalid column name 'ClientNo'.
+[2018-02-02 10:49:43] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader)
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command)
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Sample.Update(SampleInfo sampleInfo) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\Sample.cs:line 129
+   at Sample.Save(SampleInfo sampleInfo) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\Sample.cs:line 62
+   at AjaxHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\HttpHandler\AjaxHandler.ashx:line 35
+[2018-02-02 10:50:16] [Info]: refreshList
+[2018-02-02 10:50:17] [Info]: refreshList
+[2018-02-02 10:50:18] [Info]: refreshList
+[2018-02-02 10:50:18] [Info]: refreshList
+[2018-02-02 10:50:18] [Info]: refreshList
+[2018-02-02 10:50:18] [Info]: refreshList
+[2018-02-02 10:50:18] [Info]: refreshList
+[2018-02-02 10:50:19] [Info]: refreshList
+[2018-02-02 10:50:19] [Info]: refreshList
+[2018-02-02 10:50:21] [Info]: refreshList
+[2018-02-02 10:50:33] [Info]: saveSample
+[2018-02-02 10:52:10] [Info]: refreshList
+[2018-02-02 10:52:12] [Info]: refreshList
+[2018-02-02 10:52:12] [Info]: refreshList
+[2018-02-02 10:52:12] [Info]: refreshList
+[2018-02-02 10:52:13] [Info]: refreshList
+[2018-02-02 10:52:13] [Info]: refreshList
+[2018-02-02 10:52:13] [Info]: refreshList
+[2018-02-02 10:52:13] [Info]: refreshList
+[2018-02-02 10:52:14] [Info]: refreshList
+[2018-02-02 11:07:30] [Info]: refreshList
+[2018-02-02 11:07:31] [Info]: refreshList
+[2018-02-02 11:07:32] [Info]: refreshList
+[2018-02-02 11:07:32] [Info]: refreshList
+[2018-02-02 11:07:32] [Info]: refreshList
+[2018-02-02 11:07:32] [Info]: refreshList
+[2018-02-02 11:07:32] [Info]: refreshList
+[2018-02-02 11:07:32] [Info]: refreshList
+[2018-02-02 11:07:32] [Info]: refreshList
+[2018-02-02 11:07:33] [Info]: refreshList
+[2018-02-02 11:07:38] [Info]: refreshList
+[2018-02-02 11:23:59] [Info]: refreshList
+[2018-02-02 11:24:07] [Info]: refreshList
+[2018-02-02 11:24:10] [Info]: refreshList
+[2018-02-02 11:25:30] [Info]: refreshList
+[2018-02-02 11:25:33] [Info]: refreshList
+[2018-02-02 11:25:36] [Info]: refreshList
+[2018-02-02 11:25:48] [Info]: refreshList
+[2018-02-02 11:25:50] [Info]: refreshList
+[2018-02-02 11:25:59] [Info]: refreshList
+[2018-02-02 11:26:03] [Info]: refreshList
+[2018-02-02 11:27:03] [Info]: refreshList
+[2018-02-02 11:27:14] [Info]: refreshList
+[2018-02-02 11:28:25] [Info]: refreshList
+[2018-02-02 11:28:36] [Info]: refreshList
+[2018-02-02 11:34:27] [Info]: refreshList
+[2018-02-02 11:35:04] [Info]: refreshList
+[2018-02-02 11:48:32] [Info]: refreshList
+[2018-02-02 11:48:33] [Info]: refreshList
+[2018-02-02 11:49:13] [Info]: refreshList
+[2018-02-02 11:49:15] [Info]: refreshList
+[2018-02-02 11:49:18] [Info]: refreshList
+[2018-02-02 11:49:19] [Info]: getSample
+[2018-02-02 11:49:52] [Info]: refreshList
+[2018-02-02 11:49:53] [Info]: refreshList
+[2018-02-02 11:49:54] [Info]: getSample
+[2018-02-02 11:50:09] [Error]: Invalid column name 'ResponsiblePerson'.
+Invalid column name 'ContactNo'.
+Invalid column name 'Member'.
+Invalid column name 'Address'.
+[2018-02-02 11:50:09] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader)
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command)
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Sample.Update(SampleInfo sampleInfo) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\Sample.cs:line 130
+   at Sample.Save(SampleInfo sampleInfo) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\Sample.cs:line 63
+   at AjaxHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\HttpHandler\AjaxHandler.ashx:line 36
+[2018-02-02 11:51:06] [Info]: saveSample
+[2018-02-02 11:51:08] [Info]: refreshList
+[2018-02-02 11:51:09] [Info]: getSample
+[2018-02-02 11:51:10] [Info]: refreshList
+[2018-02-02 11:51:11] [Info]: getSample
+[2018-02-02 11:51:16] [Info]: refreshList
+[2018-02-02 11:51:17] [Info]: refreshList
+[2018-02-02 11:51:17] [Info]: refreshList
+[2018-02-02 11:51:17] [Info]: refreshList
+[2018-02-02 11:51:17] [Info]: refreshList
+[2018-02-02 11:51:18] [Info]: refreshList
+[2018-02-02 11:51:18] [Info]: refreshList
+[2018-02-02 11:51:18] [Info]: refreshList
+[2018-02-02 11:51:19] [Info]: refreshList
+[2018-02-02 11:51:19] [Info]: getSample
+[2018-02-02 11:51:40] [Info]: saveSample
+[2018-02-02 11:51:42] [Info]: refreshList
+[2018-02-02 11:51:43] [Info]: getSample
+[2018-02-02 11:51:46] [Info]: refreshList
+[2018-02-02 11:51:46] [Info]: refreshList
+[2018-02-02 11:51:47] [Info]: getSample
+[2018-02-02 11:51:47] [Info]: refreshList
+[2018-02-02 11:51:50] [Info]: refreshList
+[2018-02-02 11:51:51] [Info]: refreshList
+[2018-02-02 11:51:51] [Info]: refreshList
+[2018-02-02 11:51:52] [Info]: refreshList
+[2018-02-02 11:51:52] [Info]: refreshList
+[2018-02-02 11:51:52] [Info]: refreshList
+[2018-02-02 11:51:52] [Info]: refreshList
+[2018-02-02 11:51:53] [Info]: refreshList
+[2018-02-02 11:51:53] [Info]: refreshList
+[2018-02-02 11:51:54] [Info]: getSample
+[2018-02-02 11:52:11] [Info]: saveSample
+[2018-02-02 11:52:16] [Info]: saveSample
+[2018-02-02 11:52:25] [Info]: saveSample
+[2018-02-02 11:52:39] [Info]: saveSample
+[2018-02-02 11:52:50] [Info]: saveSample
+[2018-02-02 11:52:55] [Info]: saveSample
+[2018-02-02 11:52:58] [Info]: refreshList
+[2018-02-02 11:52:59] [Info]: refreshList
+[2018-02-02 11:53:00] [Info]: getSample
+[2018-02-02 11:53:00] [Info]: refreshList
+[2018-02-02 11:53:01] [Info]: getSample
+[2018-02-02 11:53:02] [Info]: refreshList
+[2018-02-02 11:53:03] [Info]: getSample
+[2018-02-02 11:53:05] [Info]: refreshList
+[2018-02-02 11:53:06] [Info]: getSample
+[2018-02-02 11:53:08] [Info]: refreshList
+[2018-02-02 11:53:11] [Info]: refreshList
+[2018-02-02 11:53:15] [Info]: refreshList
+[2018-02-02 11:53:16] [Info]: refreshList
+[2018-02-02 11:53:16] [Info]: refreshList
+[2018-02-02 11:53:17] [Info]: refreshList
+[2018-02-02 11:53:17] [Info]: refreshList
+[2018-02-02 11:53:17] [Info]: refreshList
+[2018-02-02 11:53:17] [Info]: refreshList
+[2018-02-02 11:53:17] [Info]: refreshList
+[2018-02-02 11:53:18] [Info]: refreshList
+[2018-02-02 11:53:19] [Info]: getSample
+[2018-02-02 11:54:18] [Info]: refreshList
+[2018-02-02 11:54:19] [Info]: refreshList
+[2018-02-02 11:54:21] [Info]: getSample
+[2018-02-02 11:54:28] [Info]: saveSample
+[2018-02-02 11:56:12] [Info]: refreshList
+[2018-02-02 11:56:13] [Info]: refreshList
+[2018-02-02 11:56:14] [Info]: getSample
+[2018-02-02 11:56:16] [Info]: refreshList
+[2018-02-02 11:56:16] [Info]: refreshList
+[2018-02-02 11:56:16] [Info]: refreshList
+[2018-02-02 11:56:16] [Info]: refreshList
+[2018-02-02 11:56:17] [Info]: refreshList
+[2018-02-02 11:56:17] [Info]: refreshList
+[2018-02-02 11:56:17] [Info]: refreshList
+[2018-02-02 11:56:17] [Info]: refreshList
+[2018-02-02 11:56:18] [Info]: refreshList
+[2018-02-02 11:56:19] [Info]: getSample
+[2018-02-02 11:56:47] [Info]: refreshList
+[2018-02-02 11:56:48] [Info]: refreshList
+[2018-02-02 11:56:49] [Info]: refreshList
+[2018-02-02 11:56:51] [Info]: getSample
+[2018-02-02 11:58:12] [Info]: refreshList
+[2018-02-02 11:58:17] [Info]: refreshList
+[2018-02-02 11:58:30] [Info]: refreshList
+[2018-02-02 11:58:41] [Info]: refreshList
+[2018-02-02 11:58:49] [Info]: refreshList
+[2018-02-02 11:58:51] [Info]: getSample
+[2018-02-02 12:00:30] [Info]: refreshList
+[2018-02-02 12:01:47] [Info]: refreshList
+[2018-02-02 12:02:46] [Info]: refreshList
+[2018-02-02 12:02:47] [Info]: refreshList
+[2018-02-02 12:02:48] [Info]: getSample
+[2018-02-02 12:02:50] [Info]: refreshList
+[2018-02-02 12:02:52] [Info]: refreshList
+[2018-02-02 12:10:15] [Info]: refreshList
+[2018-02-02 12:10:16] [Info]: refreshList
+[2018-02-02 12:10:17] [Info]: getSample
+[2018-02-02 12:10:18] [Info]: refreshList
+[2018-02-02 12:10:19] [Info]: refreshList
+[2018-02-02 12:10:19] [Info]: refreshList
+[2018-02-02 12:10:19] [Info]: refreshList
+[2018-02-02 12:10:20] [Info]: refreshList
+[2018-02-02 12:10:20] [Info]: refreshList
+[2018-02-02 12:10:20] [Info]: refreshList
+[2018-02-02 12:10:21] [Info]: refreshList
+[2018-02-02 12:10:22] [Info]: refreshList
+[2018-02-02 12:10:22] [Info]: getSample
+[2018-02-02 12:10:31] [Info]: refreshList
+[2018-02-02 12:10:32] [Info]: refreshList
+[2018-02-02 12:10:33] [Info]: getSample
+[2018-02-02 12:10:34] [Info]: refreshList
+[2018-02-02 12:10:47] [Info]: refreshList
+[2018-02-02 12:11:24] [Info]: refreshList
+[2018-02-02 12:11:25] [Info]: refreshList
+[2018-02-02 12:11:25] [Info]: refreshList
+[2018-02-02 12:11:25] [Info]: refreshList
+[2018-02-02 12:11:26] [Info]: refreshList
+[2018-02-02 12:11:26] [Info]: refreshList
+[2018-02-02 12:11:26] [Info]: refreshList
+[2018-02-02 12:11:26] [Info]: refreshList
+[2018-02-02 12:11:27] [Info]: refreshList
+[2018-02-02 12:11:28] [Info]: getSample
+[2018-02-02 12:14:48] [Info]: refreshList
+[2018-02-02 12:14:50] [Info]: refreshList
+[2018-02-02 12:14:51] [Info]: getSample
+[2018-02-02 12:14:52] [Info]: refreshList
+[2018-02-02 12:14:53] [Info]: refreshList
+[2018-02-02 12:14:53] [Info]: refreshList
+[2018-02-02 12:14:53] [Info]: refreshList
+[2018-02-02 12:14:53] [Info]: refreshList
+[2018-02-02 12:14:54] [Info]: refreshList
+[2018-02-02 12:14:54] [Info]: refreshList
+[2018-02-02 12:14:54] [Info]: refreshList
+[2018-02-02 12:14:55] [Info]: refreshList
+[2018-02-02 12:14:55] [Info]: getSample
+[2018-02-02 12:15:26] [Info]: refreshList
+[2018-02-02 12:15:27] [Info]: refreshList
+[2018-02-02 12:15:28] [Info]: getSample
+[2018-02-02 12:15:29] [Info]: refreshList
+[2018-02-02 12:15:39] [Info]: refreshList
+[2018-02-02 12:15:40] [Info]: refreshList
+[2018-02-02 12:15:55] [Info]: refreshList
+[2018-02-02 12:15:56] [Info]: getSample
+[2018-02-02 12:16:04] [Info]: saveSample
+[2018-02-02 12:16:05] [Info]: refreshList
+[2018-02-02 12:16:06] [Info]: getSample
+[2018-02-02 12:16:06] [Info]: refreshList
+[2018-02-02 12:16:07] [Info]: getSample
+[2018-02-02 12:16:08] [Info]: refreshList
+[2018-02-02 12:16:09] [Info]: getSample
+[2018-02-02 12:16:10] [Info]: refreshList
+[2018-02-02 12:16:11] [Info]: getSample
+[2018-02-02 12:16:15] [Info]: saveSample
+[2018-02-02 12:16:17] [Info]: refreshList
+[2018-02-02 12:16:17] [Info]: getSample
+[2018-02-02 12:16:20] [Info]: saveSample
+[2018-02-02 12:16:21] [Info]: refreshList
+[2018-02-02 12:16:22] [Info]: getSample
+[2018-02-02 12:16:26] [Info]: saveSample
+[2018-02-02 12:16:27] [Info]: refreshList
+[2018-02-02 12:16:28] [Info]: getSample
+[2018-02-02 12:16:28] [Info]: refreshList
+[2018-02-02 12:16:29] [Info]: getSample
+[2018-02-02 12:16:29] [Info]: refreshList
+[2018-02-02 12:16:30] [Info]: getSample
+[2018-02-02 12:17:07] [Info]: saveSample
+[2018-02-02 12:17:15] [Info]: refreshList
+[2018-02-02 12:17:16] [Info]: getSample
+[2018-02-02 12:17:16] [Info]: refreshList
+[2018-02-02 12:17:17] [Info]: getSample
+[2018-02-02 12:17:17] [Info]: refreshList
+[2018-02-02 12:17:18] [Info]: getSample
+[2018-02-02 12:17:18] [Info]: refreshList
+[2018-02-02 12:17:19] [Info]: getSample
+[2018-02-02 12:17:20] [Info]: refreshList
+[2018-02-02 12:17:21] [Info]: getSample
+[2018-02-02 12:17:21] [Info]: refreshList
+[2018-02-02 12:17:22] [Info]: getSample
+[2018-02-02 12:17:22] [Info]: refreshList
+[2018-02-02 12:17:23] [Info]: getSample
+[2018-02-02 12:17:24] [Info]: refreshList
+[2018-02-02 12:17:25] [Info]: getSample
+[2018-02-02 12:17:26] [Info]: refreshList
+[2018-02-02 12:17:27] [Info]: getSample
+[2018-02-02 12:17:27] [Info]: refreshList
+[2018-02-02 12:17:29] [Info]: getSample
+[2018-02-02 12:17:31] [Info]: refreshList
+[2018-02-02 12:17:37] [Info]: refreshList
+[2018-02-02 12:17:42] [Info]: refreshList
+[2018-02-02 12:17:44] [Info]: getSample
+[2018-02-02 12:19:11] [Info]: refreshList
+[2018-02-02 12:19:27] [Info]: refreshList
+[2018-02-02 12:19:28] [Info]: getSample
+[2018-02-02 12:21:59] [Info]: refreshList
+[2018-02-02 12:22:10] [Info]: refreshList
+[2018-02-02 12:22:10] [Info]: refreshList
+[2018-02-02 12:22:11] [Info]: refreshList
+[2018-02-02 12:22:11] [Info]: refreshList
+[2018-02-02 12:22:11] [Info]: refreshList
+[2018-02-02 12:22:12] [Info]: refreshList
+[2018-02-02 12:22:12] [Info]: refreshList
+[2018-02-02 12:22:12] [Info]: refreshList
+[2018-02-02 12:22:13] [Info]: refreshList
+[2018-02-02 12:22:13] [Info]: refreshList
+[2018-02-02 12:22:13] [Info]: refreshList
+[2018-02-02 12:22:13] [Info]: refreshList
+[2018-02-02 12:22:14] [Info]: refreshList
+[2018-02-02 12:22:14] [Info]: refreshList
+[2018-02-02 12:22:14] [Info]: refreshList
+[2018-02-02 12:22:14] [Info]: refreshList
+[2018-02-02 12:22:15] [Info]: refreshList
+[2018-02-02 12:22:15] [Info]: refreshList
+[2018-02-02 12:22:15] [Info]: refreshList
+[2018-02-02 12:22:17] [Info]: refreshList
+[2018-02-02 12:22:17] [Info]: refreshList
+[2018-02-02 12:22:17] [Info]: refreshList
+[2018-02-02 12:22:17] [Info]: refreshList
+[2018-02-02 12:22:17] [Info]: refreshList
+[2018-02-02 12:22:17] [Info]: refreshList
+[2018-02-02 12:22:18] [Info]: refreshList
+[2018-02-02 12:22:18] [Info]: refreshList
+[2018-02-02 12:22:19] [Info]: refreshList
+[2018-02-02 12:22:19] [Info]: refreshList
+[2018-02-02 12:22:19] [Info]: refreshList
+[2018-02-02 12:22:19] [Info]: refreshList
+[2018-02-02 12:22:20] [Info]: refreshList
+[2018-02-02 12:22:20] [Info]: refreshList
+[2018-02-02 12:22:21] [Info]: refreshList
+[2018-02-02 12:22:22] [Info]: getSample
+[2018-02-02 12:22:44] [Info]: saveSample
+[2018-02-02 12:23:16] [Info]: saveSample
+[2018-02-02 12:23:28] [Info]: refreshList
+[2018-02-02 12:23:29] [Info]: refreshList
+[2018-02-02 12:23:30] [Info]: getSample
+[2018-02-02 12:26:28] [Info]: refreshList
+[2018-02-02 12:26:29] [Info]: refreshList
+[2018-02-02 12:26:30] [Info]: getSample
+[2018-02-02 12:26:31] [Info]: saveSample
+[2018-02-02 12:26:33] [Info]: refreshList
+[2018-02-02 12:26:34] [Info]: refreshList
+[2018-02-02 12:26:34] [Info]: refreshList
+[2018-02-02 12:26:34] [Info]: refreshList
+[2018-02-02 12:26:34] [Info]: refreshList
+[2018-02-02 12:26:34] [Info]: refreshList
+[2018-02-02 12:26:35] [Info]: refreshList
+[2018-02-02 12:26:35] [Info]: refreshList
+[2018-02-02 12:26:35] [Info]: refreshList
+[2018-02-02 12:26:35] [Info]: getSample
+[2018-02-02 14:29:35] [Info]: refreshList
+[2018-02-02 14:29:36] [Info]: refreshList
+[2018-02-02 14:29:37] [Info]: getSample
+[2018-02-02 14:32:29] [Info]: refreshList
+[2018-02-02 14:32:30] [Info]: refreshList
+[2018-02-02 14:32:34] [Info]: refreshList
+[2018-02-02 14:32:39] [Info]: refreshList
+[2018-02-02 14:32:47] [Info]: refreshList
+[2018-02-02 14:32:48] [Info]: refreshList
+[2018-02-02 14:32:48] [Info]: getSample
+[2018-02-02 14:48:30] [Info]: refreshList
+[2018-02-02 14:48:33] [Info]: refreshList
+[2018-02-02 14:48:34] [Info]: getSample
+[2018-02-02 14:51:31] [Info]: getGeneralMasterList
+[2018-02-02 14:51:31] [Info]: refreshList
+[2018-02-02 14:51:42] [Info]: refreshList
+[2018-02-02 14:51:42] [Info]: getSample
+[2018-02-02 14:51:45] [Info]: saveSample
+[2018-02-02 14:51:47] [Info]: getGeneralMasterList
+[2018-02-02 14:51:47] [Info]: refreshList
+[2018-02-02 14:51:48] [Info]: refreshList
+[2018-02-02 14:51:48] [Info]: getSample
+[2018-02-02 14:52:18] [Info]: getGeneralMasterList
+[2018-02-02 14:52:18] [Info]: refreshList
+[2018-02-02 14:52:21] [Info]: refreshList
+[2018-02-02 14:52:21] [Info]: getSample
+[2018-02-02 14:55:43] [Info]: getGeneralMasterList
+[2018-02-02 14:55:43] [Error]: The process cannot access the file 'C:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\Log\20180202.txt' because it is being used by another process.
+[2018-02-02 14:55:43] [Error]:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.Open(String path, FileMode mode)
+   at Log.Info(String message) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\App_Code\Utility\Log.cs:line 21
+   at AjaxHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\HttpHandler\AjaxHandler.ashx:line 687
+[2018-02-02 14:55:43] [Info]: refreshList
+[2018-02-02 14:55:44] [Info]: getSample
+[2018-02-02 14:56:17] [Info]: refreshList
+[2018-02-02 14:56:18] [Info]: refreshList
+[2018-02-02 14:56:19] [Info]: getSample
+[2018-02-02 14:56:23] [Info]: saveSample
+[2018-02-02 14:56:25] [Info]: getGeneralMasterList
+[2018-02-02 14:56:26] [Info]: refreshList
+[2018-02-02 14:56:26] [Info]: refreshList
+[2018-02-02 14:56:27] [Info]: getSample
+[2018-02-02 14:58:20] [Info]: getGeneralMasterList
+[2018-02-02 14:58:21] [Info]: refreshList
+[2018-02-02 14:58:22] [Info]: refreshList
+[2018-02-02 14:58:23] [Info]: getSample
+[2018-02-02 15:01:10] [Info]: getGeneralMasterList
+[2018-02-02 15:01:10] [Info]: refreshList
+[2018-02-02 15:01:23] [Info]: getGeneralMasterList
+[2018-02-02 15:01:23] [Info]: refreshList
+[2018-02-02 15:02:05] [Info]: getGeneralMasterList
+[2018-02-02 15:02:05] [Info]: refreshList
+[2018-02-02 15:03:04] [Info]: getGeneralMasterList
+[2018-02-02 15:03:04] [Info]: refreshList
+[2018-02-02 15:03:20] [Info]: getGeneralMasterList
+[2018-02-02 15:03:20] [Info]: refreshList
+[2018-02-02 15:04:04] [Info]: getGeneralMasterList
+[2018-02-02 15:04:04] [Info]: refreshList
+[2018-02-02 15:05:06] [Info]: getGeneralMasterList
+[2018-02-02 15:05:07] [Info]: refreshList
+[2018-02-02 15:05:32] [Info]: getGeneralMasterList
+[2018-02-02 15:05:32] [Info]: refreshList
+[2018-02-02 15:05:59] [Info]: getGeneralMasterList
+[2018-02-02 15:05:59] [Info]: refreshList
+[2018-02-02 15:06:35] [Info]: getGeneralMasterList
+[2018-02-02 15:06:36] [Info]: refreshList
+[2018-02-02 15:06:48] [Info]: getGeneralMasterList
+[2018-02-02 15:06:48] [Info]: refreshList
+[2018-02-02 15:07:16] [Info]: getGeneralMasterList
+[2018-02-02 15:07:16] [Info]: refreshList
+[2018-02-02 15:08:39] [Info]: getGeneralMasterList
+[2018-02-02 15:08:39] [Info]: refreshList
+[2018-02-02 15:09:21] [Info]: getGeneralMasterList
+[2018-02-02 15:09:22] [Info]: refreshList
+[2018-02-02 15:10:32] [Info]: getGeneralMasterList
+[2018-02-02 15:10:32] [Info]: refreshList
+[2018-02-02 15:11:48] [Info]: getGeneralMasterList
+[2018-02-02 15:11:48] [Info]: refreshList
+[2018-02-02 15:12:08] [Info]: getGeneralMasterList
+[2018-02-02 15:12:09] [Info]: refreshList
+[2018-02-02 15:12:23] [Info]: getGeneralMasterList
+[2018-02-02 15:12:23] [Info]: refreshList
+[2018-02-02 15:13:31] [Info]: getGeneralMasterList
+[2018-02-02 15:13:31] [Info]: refreshList
+[2018-02-02 15:14:02] [Info]: getGeneralMasterList
+[2018-02-02 15:14:02] [Info]: refreshList
+[2018-02-02 15:16:43] [Info]: getGeneralMasterList
+[2018-02-02 15:16:43] [Info]: refreshList
+[2018-02-02 15:18:18] [Info]: getGeneralMasterList
+[2018-02-02 15:18:18] [Info]: refreshList
+[2018-02-02 15:18:36] [Info]: getGeneralMasterList
+[2018-02-02 15:18:36] [Info]: refreshList
+[2018-02-02 15:19:25] [Info]: getGeneralMasterList
+[2018-02-02 15:19:25] [Info]: refreshList
+[2018-02-02 15:20:02] [Info]: getGeneralMasterList
+[2018-02-02 15:20:02] [Info]: refreshList
+[2018-02-02 15:20:32] [Info]: getGeneralMasterList
+[2018-02-02 15:20:32] [Info]: refreshList
+[2018-02-02 15:20:48] [Info]: getGeneralMasterList
+[2018-02-02 15:20:48] [Info]: refreshList
+[2018-02-02 15:20:52] [Info]: getGeneralMasterList
+[2018-02-02 15:20:52] [Info]: refreshList
+[2018-02-02 15:21:32] [Info]: getGeneralMasterList
+[2018-02-02 15:21:32] [Info]: refreshList
+[2018-02-02 15:23:45] [Info]: getGeneralMasterList
+[2018-02-02 15:23:45] [Info]: refreshList
+[2018-02-02 15:24:07] [Info]: getGeneralMasterList
+[2018-02-02 15:24:07] [Info]: refreshList
+[2018-02-02 15:25:28] [Info]: getGeneralMasterList
+[2018-02-02 15:25:29] [Info]: refreshList
+[2018-02-02 15:26:25] [Info]: getGeneralMasterList
+[2018-02-02 15:26:25] [Info]: refreshList
+[2018-02-02 15:26:45] [Info]: getGeneralMasterList
+[2018-02-02 15:26:45] [Info]: refreshList
+[2018-02-02 15:27:10] [Info]: getGeneralMasterList
+[2018-02-02 15:27:10] [Info]: refreshList
+[2018-02-02 15:28:13] [Info]: getGeneralMasterList
+[2018-02-02 15:28:13] [Info]: refreshList
+[2018-02-02 15:28:16] [Info]: getGeneralMasterList
+[2018-02-02 15:28:16] [Info]: refreshList
+[2018-02-02 15:28:35] [Info]: getGeneralMasterList
+[2018-02-02 15:28:35] [Info]: refreshList
+[2018-02-02 15:29:57] [Info]: getGeneralMasterList
+[2018-02-02 15:29:57] [Info]: refreshList
+[2018-02-02 15:30:24] [Info]: getGeneralMasterList
+[2018-02-02 15:30:24] [Info]: refreshList
+[2018-02-02 15:36:22] [Info]: refreshList
+[2018-02-02 15:36:26] [Info]: refreshList
+[2018-02-02 15:36:26] [Info]: getSample
+[2018-02-02 15:36:29] [Info]: saveSample
+[2018-02-02 15:36:32] [Info]: saveSample
+[2018-02-02 15:36:36] [Info]: saveSample
+[2018-02-02 15:37:30] [Info]: getGeneralMasterList
+[2018-02-02 15:37:30] [Info]: refreshList
+[2018-02-02 15:37:34] [Info]: refreshList
+[2018-02-02 15:37:35] [Info]: getSample
+[2018-02-02 15:38:47] [Info]: refreshList
+[2018-02-02 15:38:47] [Info]: getGeneralMasterList
+[2018-02-02 15:39:03] [Info]: getGeneralMasterList
+[2018-02-02 15:39:03] [Info]: refreshList
+[2018-02-02 15:39:33] [Info]: getGeneralMasterList
+[2018-02-02 15:39:33] [Info]: refreshList
+[2018-02-02 15:39:37] [Info]: getGeneralMasterList
+[2018-02-02 15:39:37] [Info]: refreshList
+[2018-02-02 15:40:23] [Info]: getGeneralMasterList
+[2018-02-02 15:40:23] [Info]: refreshList
+[2018-02-02 15:41:09] [Info]: getGeneralMasterList
+[2018-02-02 15:41:09] [Info]: refreshList
+[2018-02-02 15:46:48] [Info]: getGeneralMasterList
+[2018-02-02 15:46:48] [Info]: refreshList
+[2018-02-02 15:48:58] [Info]: refreshList
+[2018-02-02 15:48:59] [Info]: getSample
+[2018-02-02 15:50:02] [Info]: refreshList
+[2018-02-02 15:52:52] [Info]: refreshList
+[2018-02-02 15:53:03] [Info]: refreshList
+[2018-02-02 15:59:11] [Info]: getGeneralMasterList
+[2018-02-02 15:59:13] [Info]: getGeneralMasterList
+[2018-02-02 16:07:02] [Info]: getGeneralMasterList
+[2018-02-02 16:07:04] [Info]: getGeneralMasterList
+[2018-02-02 16:07:12] [Info]: refreshList
+[2018-02-02 16:07:13] [Info]: refreshList
+[2018-02-02 16:07:13] [Info]: getSample
+[2018-02-02 16:08:24] [Info]: getGeneralMasterList
+[2018-02-02 16:08:24] [Info]: refreshList
+[2018-02-02 16:08:38] [Info]: refreshList
+[2018-02-02 16:08:39] [Info]: refreshList
+[2018-02-02 16:08:39] [Info]: getSample
+[2018-02-02 16:11:33] [Info]: getGeneralMasterList
+[2018-02-02 16:11:33] [Info]: refreshList
+[2018-02-02 16:11:44] [Info]: getGeneralMasterList
+[2018-02-02 16:11:44] [Info]: refreshList
+[2018-02-02 16:12:29] [Info]: getGeneralMasterList
+[2018-02-02 16:12:29] [Info]: refreshList
+[2018-02-02 16:13:14] [Info]: getGeneralMasterList
+[2018-02-02 16:13:14] [Info]: refreshList
+[2018-02-02 16:14:03] [Info]: getGeneralMasterList
+[2018-02-02 16:14:03] [Info]: refreshList
+[2018-02-02 16:14:18] [Info]: getGeneralMasterList
+[2018-02-02 16:14:18] [Info]: refreshList
+[2018-02-02 16:14:36] [Info]: getGeneralMasterList
+[2018-02-02 16:14:36] [Info]: refreshList
+[2018-02-02 16:15:13] [Info]: getGeneralMasterList
+[2018-02-02 16:15:13] [Info]: refreshList
+[2018-02-02 16:15:31] [Info]: getGeneralMasterList
+[2018-02-02 16:15:31] [Info]: refreshList
+[2018-02-02 16:20:44] [Info]: getGeneralMasterList
+[2018-02-02 16:20:44] [Info]: refreshList
+[2018-02-02 16:20:48] [Info]: getGeneralMasterList
+[2018-02-02 16:20:48] [Info]: refreshList
+[2018-02-02 16:20:57] [Info]: getGeneralMasterList
+[2018-02-02 16:20:57] [Info]: refreshList
+[2018-02-02 16:21:10] [Info]: getGeneralMasterList
+[2018-02-02 16:21:10] [Info]: refreshList
+[2018-02-02 16:21:15] [Info]: getGeneralMasterList
+[2018-02-02 16:21:16] [Info]: refreshList
+[2018-02-02 16:21:24] [Info]: getGeneralMasterList
+[2018-02-02 16:21:24] [Info]: refreshList
+[2018-02-02 16:21:29] [Info]: getGeneralMasterList
+[2018-02-02 16:21:29] [Info]: refreshList
+[2018-02-02 16:21:30] [Info]: getGeneralMasterList
+[2018-02-02 16:21:30] [Info]: refreshList
+[2018-02-02 16:21:31] [Info]: getGeneralMasterList
+[2018-02-02 16:21:31] [Info]: refreshList
+[2018-02-02 16:21:40] [Info]: getGeneralMasterList
+[2018-02-02 16:21:40] [Info]: refreshList
+[2018-02-02 16:21:49] [Info]: getGeneralMasterList
+[2018-02-02 16:21:50] [Info]: refreshList
+[2018-02-02 16:21:52] [Info]: getGeneralMasterList
+[2018-02-02 16:21:52] [Info]: refreshList
+[2018-02-02 16:22:02] [Info]: getGeneralMasterList
+[2018-02-02 16:22:02] [Info]: refreshList
+[2018-02-02 16:22:07] [Info]: refreshList
+[2018-02-02 16:22:12] [Info]: refreshList
+[2018-02-02 16:22:13] [Info]: refreshList
+[2018-02-02 16:24:03] [Info]: getGeneralMasterList
+[2018-02-02 16:24:03] [Info]: refreshList
+[2018-02-02 16:24:06] [Info]: getGeneralMasterList
+[2018-02-02 16:24:07] [Info]: refreshList
+[2018-02-02 16:24:10] [Info]: refreshList
+[2018-02-02 16:24:11] [Info]: refreshList
+[2018-02-02 16:24:12] [Info]: getSample
+[2018-02-02 16:28:29] [Info]: refreshList
+[2018-02-02 16:29:39] [Info]: getGeneralMasterList
+[2018-02-02 16:29:39] [Info]: refreshList
+[2018-02-02 16:31:15] [Info]: getGeneralMasterList
+[2018-02-02 16:31:15] [Info]: refreshList
+[2018-02-02 16:31:17] [Info]: refreshList
+[2018-02-02 16:31:25] [Info]: refreshList
+[2018-02-02 16:31:26] [Info]: getSample
+[2018-02-02 16:32:20] [Info]: refreshList
+[2018-02-02 16:32:20] [Info]: getSample
+[2018-02-02 16:32:21] [Info]: refreshList
+[2018-02-02 16:32:22] [Info]: refreshList
+[2018-02-02 16:32:22] [Info]: refreshList
+[2018-02-02 16:32:22] [Info]: refreshList
+[2018-02-02 16:32:22] [Info]: refreshList
+[2018-02-02 16:32:22] [Info]: refreshList
+[2018-02-02 16:32:23] [Info]: refreshList
+[2018-02-02 16:32:23] [Info]: refreshList
+[2018-02-02 16:32:25] [Info]: getSample
+[2018-02-02 16:32:29] [Info]: refreshList
+[2018-02-02 16:32:30] [Info]: refreshList
+[2018-02-02 16:32:31] [Info]: getSample
+[2018-02-02 16:43:28] [Info]: getGeneralMasterList
+[2018-02-02 16:43:28] [Info]: refreshList
+[2018-02-02 16:44:42] [Info]: getGeneralMasterList
+[2018-02-02 16:44:42] [Info]: refreshList
+[2018-02-02 16:55:39] [Info]: getGeneralMasterList
+[2018-02-02 16:55:41] [Info]: refreshList
+[2018-02-02 16:55:54] [Info]: getGeneralMasterList
+[2018-02-02 16:55:54] [Info]: refreshList
+[2018-02-02 16:56:15] [Info]: refreshList
+[2018-02-02 16:56:16] [Info]: refreshList
+[2018-02-02 16:56:17] [Info]: getSample
+[2018-02-02 17:00:13] [Info]: getGeneralMasterList
+[2018-02-02 17:00:13] [Info]: refreshList
+[2018-02-02 17:00:19] [Info]: getGeneralMasterList
+[2018-02-02 17:00:19] [Info]: refreshList
+[2018-02-02 17:00:21] [Info]: getGeneralMasterList
+[2018-02-02 17:00:21] [Info]: refreshList
+[2018-02-02 17:00:24] [Info]: getGeneralMasterList
+[2018-02-02 17:00:24] [Info]: refreshList
+[2018-02-02 17:00:29] [Info]: getGeneralMasterList
+[2018-02-02 17:00:29] [Info]: refreshList
+[2018-02-02 17:00:32] [Info]: getGeneralMasterList
+[2018-02-02 17:00:32] [Info]: refreshList
+[2018-02-02 17:00:35] [Info]: refreshList
+[2018-02-02 17:00:37] [Info]: refreshList
+[2018-02-02 17:00:38] [Info]: getSample
+[2018-02-02 17:02:30] [Info]: getGeneralMasterList
+[2018-02-02 17:02:30] [Info]: refreshList
+[2018-02-02 17:03:12] [Info]: getGeneralMasterList
+[2018-02-02 17:03:12] [Info]: refreshList
+[2018-02-02 17:03:46] [Info]: getGeneralMasterList
+[2018-02-02 17:03:46] [Info]: refreshList
+[2018-02-02 17:04:15] [Info]: getGeneralMasterList
+[2018-02-02 17:04:15] [Info]: refreshList
+[2018-02-02 17:04:46] [Info]: getGeneralMasterList
+[2018-02-02 17:04:46] [Info]: refreshList
+[2018-02-02 17:14:41] [Info]: refreshList
+[2018-02-02 17:14:42] [Info]: getSample
+[2018-02-02 17:15:12] [Info]: getGeneralMasterList
+[2018-02-02 17:15:12] [Info]: refreshList
+[2018-02-02 17:15:50] [Info]: getGeneralMasterList
+[2018-02-02 17:15:50] [Info]: refreshList
+[2018-02-02 17:16:17] [Info]: getGeneralMasterList
+[2018-02-02 17:16:17] [Info]: refreshList
+[2018-02-02 17:17:12] [Info]: getGeneralMasterList
+[2018-02-02 17:17:12] [Info]: refreshList
+[2018-02-02 17:21:49] [Info]: getGeneralMasterList
+[2018-02-02 17:21:49] [Info]: refreshList
+[2018-02-02 17:22:09] [Info]: getGeneralMasterList
+[2018-02-02 17:22:09] [Info]: refreshList
+[2018-02-02 17:22:19] [Info]: getGeneralMasterList
+[2018-02-02 17:22:19] [Info]: refreshList
+[2018-02-02 17:31:31] [Info]: refreshList
+[2018-02-02 17:31:31] [Info]: getSample
+[2018-02-02 17:37:35] [Info]: getGeneralMasterList
+[2018-02-02 17:37:35] [Info]: refreshList
+[2018-02-02 17:40:42] [Info]: getGeneralMasterList
+[2018-02-02 17:40:42] [Info]: refreshList
+[2018-02-02 17:41:07] [Info]: getGeneralMasterList
+[2018-02-02 17:41:07] [Info]: refreshList
+[2018-02-02 17:41:40] [Info]: getGeneralMasterList
+[2018-02-02 17:41:40] [Info]: refreshList
+[2018-02-02 17:41:47] [Info]: getGeneralMasterList
+[2018-02-02 17:41:47] [Info]: refreshList
+[2018-02-02 17:42:50] [Info]: getGeneralMasterList
+[2018-02-02 17:42:50] [Info]: refreshList
+[2018-02-02 17:42:51] [Info]: getGeneralMasterList
+[2018-02-02 17:42:51] [Info]: refreshList
+[2018-02-02 17:42:56] [Info]: getGeneralMasterList
+[2018-02-02 17:42:57] [Info]: refreshList
+[2018-02-02 17:43:11] [Info]: getGeneralMasterList
+[2018-02-02 17:43:11] [Info]: refreshList
+[2018-02-02 17:46:13] [Info]: refreshList
+[2018-02-02 17:46:14] [Info]: getSample
+[2018-02-02 17:46:27] [Info]: getGeneralMasterList
+[2018-02-02 17:46:27] [Info]: refreshList
+[2018-02-02 17:46:32] [Info]: refreshList
+[2018-02-02 17:46:33] [Info]: getSample
+[2018-02-02 17:47:10] [Info]: getGeneralMasterList
+[2018-02-02 17:47:10] [Info]: refreshList
+[2018-02-02 17:47:12] [Info]: getGeneralMasterList
+[2018-02-02 17:47:12] [Info]: refreshList
+[2018-02-02 17:47:13] [Info]: getGeneralMasterList
+[2018-02-02 17:47:13] [Info]: refreshList
+[2018-02-02 17:47:14] [Info]: getGeneralMasterList
+[2018-02-02 17:47:14] [Info]: refreshList
+[2018-02-02 17:47:15] [Info]: refreshList
+[2018-02-02 17:47:15] [Info]: getSample
+[2018-02-02 17:50:28] [Info]: refreshList
+[2018-02-02 17:58:30] [Info]: refreshList
+[2018-02-02 17:58:33] [Info]: refreshList
+[2018-02-02 17:58:35] [Info]: refreshList

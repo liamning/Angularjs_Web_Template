@@ -1,0 +1,169 @@
+[2018-02-01 16:02:11] [Info]: refreshList
+[2018-02-01 16:02:12] [Info]: refreshList
+[2018-02-01 16:02:13] [Info]: refreshList
+[2018-02-01 16:02:13] [Info]: refreshList
+[2018-02-01 16:02:14] [Info]: refreshList
+[2018-02-01 16:02:16] [Info]: refreshList
+[2018-02-01 16:02:16] [Info]: refreshList
+[2018-02-01 16:02:16] [Info]: refreshList
+[2018-02-01 16:02:16] [Info]: refreshList
+[2018-02-01 16:02:17] [Info]: refreshList
+[2018-02-01 16:02:17] [Info]: refreshList
+[2018-02-01 16:02:17] [Info]: refreshList
+[2018-02-01 16:02:21] [Info]: refreshList
+[2018-02-01 16:02:21] [Info]: refreshList
+[2018-02-01 16:02:22] [Info]: refreshList
+[2018-02-01 16:02:38] [Info]: refreshList
+[2018-02-01 16:02:39] [Info]: refreshList
+[2018-02-01 16:05:06] [Info]: refreshList
+[2018-02-01 16:05:19] [Info]: refreshList
+[2018-02-01 16:06:45] [Info]: refreshList
+[2018-02-01 16:06:51] [Info]: refreshList
+[2018-02-01 16:06:58] [Info]: refreshList
+[2018-02-01 16:08:23] [Info]: refreshList
+[2018-02-01 16:08:24] [Info]: refreshList
+[2018-02-01 16:08:26] [Info]: refreshList
+[2018-02-01 16:09:40] [Info]: refreshList
+[2018-02-01 16:11:48] [Info]: refreshList
+[2018-02-01 16:12:29] [Info]: refreshList
+[2018-02-01 16:12:31] [Info]: refreshList
+[2018-02-01 16:17:54] [Info]: refreshList
+[2018-02-01 16:17:56] [Info]: refreshList
+[2018-02-01 16:17:58] [Info]: refreshList
+[2018-02-01 16:18:03] [Info]: refreshList
+[2018-02-01 16:18:04] [Info]: refreshList
+[2018-02-01 16:18:06] [Info]: refreshList
+[2018-02-01 16:18:09] [Info]: refreshList
+[2018-02-01 16:18:13] [Info]: refreshList
+[2018-02-01 16:18:18] [Info]: refreshList
+[2018-02-01 16:18:24] [Info]: refreshList
+[2018-02-01 16:19:31] [Info]: refreshList
+[2018-02-01 16:19:32] [Info]: refreshList
+[2018-02-01 16:20:53] [Info]: refreshList
+[2018-02-01 17:27:40] [Info]: refreshList
+[2018-02-01 17:27:44] [Info]: refreshList
+[2018-02-01 17:27:55] [Info]: refreshList
+[2018-02-01 17:27:57] [Info]: refreshList
+[2018-02-01 17:27:58] [Info]: refreshList
+[2018-02-01 17:28:00] [Info]: refreshList
+[2018-02-01 17:28:44] [Info]: refreshList
+[2018-02-01 17:28:47] [Info]: refreshList
+[2018-02-01 17:28:49] [Info]: refreshList
+[2018-02-01 17:29:08] [Info]: refreshList
+[2018-02-01 17:29:49] [Info]: refreshList
+[2018-02-01 17:30:04] [Info]: refreshList
+[2018-02-01 17:30:05] [Info]: refreshList
+[2018-02-01 17:30:33] [Info]: refreshList
+[2018-02-01 17:30:34] [Info]: refreshList
+[2018-02-01 17:30:36] [Info]: refreshList
+[2018-02-01 17:30:38] [Info]: refreshList
+[2018-02-01 17:30:39] [Info]: refreshList
+[2018-02-01 17:30:40] [Info]: refreshList
+[2018-02-01 17:30:44] [Info]: refreshList
+[2018-02-01 17:30:48] [Info]: refreshList
+[2018-02-01 17:30:56] [Info]: refreshList
+[2018-02-01 17:32:22] [Info]: refreshList
+[2018-02-01 17:32:24] [Info]: refreshList
+[2018-02-01 17:32:26] [Info]: refreshList
+[2018-02-01 17:32:28] [Info]: refreshList
+[2018-02-01 17:32:30] [Info]: refreshList
+[2018-02-01 17:35:01] [Info]: refreshList
+[2018-02-01 17:35:48] [Info]: refreshList
+[2018-02-01 17:35:51] [Info]: refreshList
+[2018-02-01 17:36:13] [Info]: refreshList
+[2018-02-01 17:36:57] [Info]: refreshList
+[2018-02-01 17:40:24] [Info]: refreshList
+[2018-02-01 17:41:11] [Info]: refreshList
+[2018-02-01 17:44:12] [Info]: refreshList
+[2018-02-01 17:44:58] [Info]: refreshList
+[2018-02-01 17:45:38] [Info]: refreshList
+[2018-02-01 17:46:11] [Info]: refreshList
+[2018-02-01 17:47:05] [Info]: refreshList
+[2018-02-01 17:47:26] [Info]: refreshList
+[2018-02-01 17:48:01] [Info]: refreshList
+[2018-02-01 17:48:04] [Info]: refreshList
+[2018-02-01 17:48:06] [Info]: refreshList
+[2018-02-01 17:48:09] [Info]: refreshList
+[2018-02-01 17:55:32] [Info]: refreshList
+[2018-02-01 17:55:34] [Info]: refreshList
+[2018-02-01 17:55:38] [Info]: refreshList
+[2018-02-01 17:55:44] [Info]: refreshList
+[2018-02-01 17:55:46] [Info]: refreshList
+[2018-02-01 17:59:02] [Info]: refreshList
+[2018-02-01 17:59:05] [Info]: refreshList
+[2018-02-01 17:59:36] [Info]: refreshList
+[2018-02-01 17:59:38] [Info]: refreshList
+[2018-02-01 17:59:40] [Info]: refreshList
+[2018-02-01 17:59:43] [Info]: refreshList
+[2018-02-01 17:59:46] [Info]: refreshList
+[2018-02-01 18:00:00] [Info]: refreshList
+[2018-02-01 18:00:03] [Info]: refreshList
+[2018-02-01 18:00:05] [Info]: refreshList
+[2018-02-01 18:00:09] [Info]: refreshList
+[2018-02-01 18:00:11] [Info]: refreshList
+[2018-02-01 18:00:12] [Info]: refreshList
+[2018-02-01 18:00:16] [Info]: refreshList
+[2018-02-01 18:03:07] [Info]: refreshList
+[2018-02-01 18:03:11] [Info]: refreshList
+[2018-02-01 18:03:21] [Info]: refreshList
+[2018-02-01 18:03:22] [Info]: refreshList
+[2018-02-01 18:04:00] [Info]: refreshList
+[2018-02-01 18:05:22] [Info]: refreshList
+[2018-02-01 18:05:39] [Info]: refreshList
+[2018-02-01 18:06:22] [Info]: refreshList
+[2018-02-01 18:06:26] [Info]: refreshList
+[2018-02-01 18:06:30] [Info]: refreshList
+[2018-02-01 18:06:37] [Info]: refreshList
+[2018-02-01 18:06:38] [Info]: refreshList
+[2018-02-01 18:19:26] [Error]: Object reference not set to an instance of an object.
+[2018-02-01 18:19:26] [Error]:    at AjaxHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\HttpHandler\AjaxHandler.ashx:line 27
+[2018-02-01 18:20:12] [Info]: refreshList
+[2018-02-01 18:20:13] [Info]: refreshList
+[2018-02-01 18:20:26] [Error]: String was not recognized as a valid DateTime.
+[2018-02-01 18:20:26] [Error]:    at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider, DateTimeStyles style)
+   at Newtonsoft.Json.Converters.IsoDateTimeConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.DeserializeConvertable(JsonConverter converter, JsonReader reader, Type objectType, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonConverter[] converters)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonConverter[] converters)
+   at AjaxHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\HttpHandler\AjaxHandler.ashx:line 33
+[2018-02-01 18:20:29] [Error]: String was not recognized as a valid DateTime.
+[2018-02-01 18:20:29] [Error]:    at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider, DateTimeStyles style)
+   at Newtonsoft.Json.Converters.IsoDateTimeConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.DeserializeConvertable(JsonConverter converter, JsonReader reader, Type objectType, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonConverter[] converters)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonConverter[] converters)
+   at AjaxHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\HttpHandler\AjaxHandler.ashx:line 33
+[2018-02-01 18:21:11] [Error]: String was not recognized as a valid DateTime.
+[2018-02-01 18:21:11] [Error]:    at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider, DateTimeStyles style)
+   at Newtonsoft.Json.Converters.IsoDateTimeConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.DeserializeConvertable(JsonConverter converter, JsonReader reader, Type objectType, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonConverter[] converters)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonConverter[] converters)
+   at AjaxHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\Inspinia\inspinia_v2.7.1\Angular_Seed_Project_2018\HttpHandler\AjaxHandler.ashx:line 33
